@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "org.shubukanindia.exam",
+      "sha256_cert_fingerprints": [
+        "80:18:31:0C:BC:B9:67:84:AD:12:E9:F0:A3:BD:45:F1:92:11:D9:99:36:0E:88:1A:95:44:E1:FA:CD:75:DB:E2"
+      ]
+    }
+  }
+]

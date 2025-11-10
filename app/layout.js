@@ -6,9 +6,7 @@ export default function RootLayout({ children }) {
     <html
       lang="en"
       style={{
-        background: "rgb(231, 221, 211)",
         overflowX: "hidden",
-        backgroundSize: "250px 250px",
         maxWidth: "100vw",
         margin: "0px",
         boxSizing: "border-box",
@@ -17,8 +15,6 @@ export default function RootLayout({ children }) {
       <body
         className={`antialiased`}
         style={{
-          background: "rgb(231, 221, 211)",
-          backgroundSize: "250px 250px",
           maxWidth: "100vw",
           width: "100%",
           margin: "0px",

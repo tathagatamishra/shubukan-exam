@@ -83,7 +83,6 @@ export default function Student() {
         </label>
 
         <form
-          // onSubmit={handleSubmit}
           className="OnlineExam corner-shape w-full h-fit flex flex-col p-[16px] pb-[32px] mb-[16px] shadow-md border !rounded-[40px]"
         >
           <label className="font-[600] text-[14px] sm:text-[16px] text-[#334155] mb-2">
@@ -96,16 +95,6 @@ export default function Student() {
             onChange={(e) => setExamID(e.target.value.toUpperCase())}
             className="corner-shape border font-[600] text-[14px] sm:text-[16px] px-[10px] sm:px-[18px] py-[8px] mb-4"
           />
-          {/* <label className="font-[600] text-[14px] sm:text-[16px] text-[#334155] mb-2">
-            Exam Password
-          </label>
-          <input
-            type="text"
-            placeholder="Enter your exam password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            className="corner-shape pass-input border font-[600] text-[14px] sm:text-[16px] px-[10px] sm:px-[18px] py-[8px] mb-2"
-          /> */}
 
           <p className="text-[14px] sm:text-[14px] text-[#64748B] mb-[12px]">
             ** Contact your Sensei to get Exam ID

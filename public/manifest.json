@@ -1,0 +1,17 @@
+{
+  "name": "Shubukan Exam Portal",
+  "short_name": "ShubukanExam",
+  "description": "Exam portal for Shubukan India — students can start exams and view results.",
+  "start_url": "/online-exam",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#0b5cff",
+  "icons": [
+    { "src": "/icons/icon-72.png", "sizes": "72x72", "type": "image/png" },
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "categories": ["education"]
+}

@@ -1,5 +1,10 @@
 // app/layout.js
+import RegisterSW from "@/components/RegisterSW";
 import "./globals.css";
+
+export const metadata = {
+  title: 'Shubukan Exam',
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -12,6 +17,10 @@ export default function RootLayout({ children }) {
         boxSizing: "border-box",
       }}
     >
+      <head>
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#0b5cff" />
+      </head>
       <body
         className={`antialiased`}
         style={{
@@ -21,6 +30,7 @@ export default function RootLayout({ children }) {
           boxSizing: "border-box",
         }}
       >
+        <RegisterSW />
         <div
           className="App"
           id="App"
